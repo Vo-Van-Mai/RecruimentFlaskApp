@@ -1,0 +1,178 @@
+{% extends 'layout/base.html' %}
+
+{% block title %}About Us - Job Portal{% endblock %}
+
+{% block content %}
+
+{% include 'layout/hero_section.html'%}
+
+
+<section class="py-5 bg-light">
+    <div class="container py-4">
+        <div class="row align-items-center g-5">
+            <div class="col-md-6 order-md-2">
+                {# Please ensure this Cloudinary URL is a public asset URL #}
+                <img src="https://res.cloudinary.com/dqpu49bbo/image/upload/v1748718255/avatars/ecy9awxxse7npwq2sqwj.jpg"
+                     class="img-fluid rounded-4 shadow-lg transform-on-hover"
+                     alt="Our Story - Job Portal">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <h2 class="fw-bold mb-3 text-dark">Our Story</h2>
+                <p class="lead text-muted mb-4">Job Portal was founded with a clear mission: to build a strong bridge between talented candidates and groundbreaking career opportunities. We understand the challenges on the job search and recruitment journey, and we are committed to transforming this process into a **simple, efficient, and inspiring** experience.</p>
+                <p class="text-muted">From our very beginning, we have continuously strived to build a **modern, reliable platform**, always at the forefront of updating the latest labor market trends. We firmly believe that every individual deserves a fulfilling career, and every business needs the perfect pieces to thrive and grow.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container py-4">
+        <h2 class="text-center fw-bold mb-5 text-dark">Our Mission & Vision</h2>
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="p-4 rounded-4 shadow h-100 feature-card transform-on-hover border border-primary border-opacity-50">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-bullseye fs-2 text-primary me-3"></i>
+                        <h4 class="fw-bold mb-0 text-dark">Our Mission</h4>
+                    </div>
+                    <p class="text-muted">To provide an **effective, transparent, and personalized** job search and recruitment platform, helping candidates easily find jobs that match their skills and career goals, while assisting businesses in reaching the right talent for sustainable growth.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="p-4 rounded-4 shadow h-100 feature-card transform-on-hover border border-info border-opacity-50">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-eye-fill fs-2 text-info me-3"></i>
+                        <h4 class="fw-bold mb-0 text-dark">Our Vision</h4>
+                    </div>
+                    <p class="text-muted">To become the leading and most trusted job platform in Vietnam, where every talent can maximize their potential and every opportunity is discovered, contributing to building a **prosperous and fair** labor market.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-light">
+    <div class="container py-4">
+        <h2 class="text-center fw-bold mb-5 text-dark">Why Choose Job Portal?</h2>
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-4 col-md-6">
+                <div class="p-4 rounded-4 shadow h-100 text-center feature-card transform-on-hover">
+                    <div class="icon-circle mb-3 bg-primary-subtle mx-auto">
+                        <i class="bi bi-rocket-takeoff fs-3 text-primary"></i>
+                    </div>
+                    <h5 class="fw-bold mb-2 text-dark">Endless Opportunities</h5>
+                    <p class="text-muted small">Explore thousands of jobs from large corporations to dynamic startups, suitable for all experience levels.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="p-4 rounded-4 shadow h-100 text-center feature-card transform-on-hover">
+                    <div class="icon-circle mb-3 bg-success-subtle mx-auto">
+                        <i class="bi bi-award fs-3 text-success"></i>
+                    </div>
+                    <h5 class="fw-bold mb-2 text-dark">Leading Reliability</h5>
+                    <p class="text-muted small">All recruitment information is rigorously vetted, ensuring absolute authenticity and safety for users.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="p-4 rounded-4 shadow h-100 text-center feature-card transform-on-hover">
+                    <div class="icon-circle mb-3 bg-info-subtle mx-auto">
+                        <i class="bi bi-headset fs-3 text-info"></i>
+                    </div>
+                    <h5 class="fw-bold mb-2 text-dark">Dedicated Support</h5>
+                    <p class="text-muted small">Our team of experts is always ready to answer your questions and provide advice for the best career journey.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="p-4 rounded-4 shadow h-100 text-center feature-card transform-on-hover">
+                    <div class="icon-circle mb-3 bg-warning-subtle mx-auto">
+                        <i class="bi bi-speedometer2 fs-3 text-warning"></i>
+                    </div>
+                    <h5 class="fw-bold mb-2 text-dark">Optimized Experience</h5>
+                    <p class="text-muted small">User-friendly interface and smart search features help you quickly find what you need.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="p-4 rounded-4 shadow h-100 text-center feature-card transform-on-hover">
+                    <div class="icon-circle mb-3 bg-danger-subtle mx-auto">
+                        <i class="bi bi-gem fs-3 text-danger"></i>
+                    </div>
+                    <h5 class="fw-bold mb-2 text-dark">Personalized Matching</h5>
+                    <p class="text-muted small">Job recommendations precisely based on your profile, experience, and personal development goals.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="p-4 rounded-4 shadow h-100 text-center feature-card transform-on-hover">
+                    <div class="icon-circle mb-3 bg-secondary-subtle mx-auto">
+                        <i class="bi bi-person-workspace fs-3 text-secondary"></i>
+                    </div>
+                    <h5 class="fw-bold mb-2 text-dark">Sustainable Growth</h5>
+                    <p class="text-muted small">Providing resources, courses, and helpful advice to continuously enhance your value.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# Call to Action Section #}
+<section class="py-5 bg-teal-gradient text-white text-center rounded-4 mx-2 my-3 shadow-lg">
+    <div class="container">
+        <h2 class="fw-bold mb-3 display-5">Ready for the next step in your career?</h2>
+        <p class="lead mb-4 opacity-75 fs-5">Join Job Portal today and discover thousands of golden opportunities waiting for you.</p>
+        <a href="{{ url_for('register_process') }}" class="btn btn-light btn-lg fw-bold px-4 py-2 me-3 custom-btn-shadow">Register for Free</a>
+        <a href="{{ url_for('index') }}" class="btn btn-outline-light btn-lg fw-bold px-4 py-2 custom-btn-shadow">Find Jobs Now</a>
+    </div>
+</section>
+
+
+{% endblock %}
+
+{% block css %}
+{{ super() }} {# Keep existing CSS from base.html #}
+<style>
+    /* CSS for icon-circle in "Why Choose Us" section */
+    .icon-circle {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 1rem auto; /* Center horizontally */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }
+
+    /* Hover effect for cards */
+    .transform-on-hover {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .transform-on-hover:hover {
+        transform: translateY(-5px); /* Lift the card slightly */
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+    }
+
+    /* Gradient for Call to Action section */
+    .bg-teal-gradient {
+        background: linear-gradient(45deg, #1abc9c, #2ecc71); /* Combine teal and green */
+    }
+
+    /* Custom shadow for buttons in CTA */
+    .custom-btn-shadow {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+    }
+
+    .custom-btn-shadow:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        transform: translateY(-2px);
+    }
+
+    /* Ensure default text color is dark on light backgrounds */
+    section.bg-light h2, section.bg-light h5 {
+        color: #343a40; /* Dark text color */
+    }
+    section:not(.bg-light) h2, section:not(.bg-light) h5 {
+        color: #343a40; /* Dark text color for sections without light background */
+    }
+</style>
+{% endblock %}
